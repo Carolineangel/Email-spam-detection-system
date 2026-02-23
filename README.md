@@ -4,12 +4,12 @@ A beautiful, production-ready Flask web application that uses Machine Learning t
 
 ## Features
 
-✨ **Key Highlights:**
-- 🎯 **High Accuracy** - Trained on balanced dataset (handles imbalanced data using upsampling)
-- ⚡ **Real-time Predictions** - Instant spam/ham classification
-- 🔒 **Secure & Private** - No data is stored or sent elsewhere
-- 💻 **Modern UI** - Beautiful, responsive interface
-- 📊 **Confidence Scores** - Shows prediction confidence for transparency
+ **Key Highlights:**
+- **High Accuracy** - Trained on balanced dataset (handles imbalanced data using upsampling)
+- **Real-time Predictions** - Instant spam/ham classification
+- **Secure & Private** - No data is stored or sent elsewhere
+- **Modern UI** - Beautiful, responsive interface
+- **Confidence Scores** - Shows prediction confidence for transparency
 
 ## Dataset
 
@@ -61,7 +61,7 @@ python app.py
 
 You'll see:
 ```
-🚀 SPAM DETECTION APP RUNNING
+ SPAM DETECTION APP RUNNING
 ============================================================
 Open your browser and go to: http://localhost:5000
 ============================================================
@@ -73,7 +73,7 @@ Visit: **http://localhost:5000**
 ### How to Use
 1. Paste or type an email message in the text area
 2. Click "Analyze Email" button
-3. Get instant prediction: **Spam** or **Ham** ✅
+3. Get instant prediction: **Spam** or **Ham** 
 4. View confidence scores for both classes
 
 ## Project Structure
@@ -171,40 +171,9 @@ These metrics are calculated on the test set (20% of data).
 ## Common Spam Indicators
 
 The model detects typical spam patterns like:
-- 🎁 "Free", "Prize", "Winner", "Congratulations"
-- 💰 "Claim", "Cash", "Money", "Urgent"
-- 🔗 Shortened URLs and suspicious links
-- ⚠️ ALL CAPS text
+- "Free", "Prize", "Winner", "Congratulations"
+-  "Claim", "Cash", "Money", "Urgent"
+-  Shortened URLs and suspicious links
+-  ALL CAPS text
 - Multiple exclamation marks
 - Requests for personal/financial information
-
-## Troubleshooting
-
-### Error: "Model files not found"
-**Solution**: Run `python train_model.py` first to generate model files.
-
-### Slow predictions
-**Solution**: This is normal on first run. Subsequent predictions are instant.
-
-### Port 5000 already in use
-**Solution**: Edit `app.py` line and change `port=5000` to another port like `port=5001`.
-
-## Future Improvements
-
-- 📱 Mobile app version
-- 🔄 Real-time model retraining
-- 📧 Email client integration
-- 🌍 Multi-language support
-- 📊 Analytics dashboard
-
-## License
-
-This project is free to use for educational and personal purposes.
-
-## Contact & Support
-
-For issues or suggestions, please refer to the main project repository.
-
----
-
-**Made with ❤️ for spam-free inboxes**
